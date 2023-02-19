@@ -1,41 +1,5 @@
-# Website
+# Memoir
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This is supposed to be a collection of tips, templates, notes, whatever learning that I think might be useful in the future again. The aim is to provide a place where I can lookup stuff I've done before.
 
-### Installation
-
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+The aim is not to provide detailed explanations of everything, but rather have a quick way to remind myself how something works/is setup/etc.
