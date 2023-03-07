@@ -1,8 +1,3 @@
----
-tags:
-  - diff
----
-
 # See difference between files / directories
 
 ```bash
