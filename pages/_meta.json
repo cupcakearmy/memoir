@@ -1,6 +1,5 @@
 {
   "index": "Intro",
   "cli": "CLI",
-  "hosting": "Hosting",
-  "infrastructure": "Infrastructure"
+  "dev_ops": "Dev Ops"
 }
