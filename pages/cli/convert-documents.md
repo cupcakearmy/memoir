@@ -1,10 +1,3 @@
----
-tags:
-  - pandoc
-  - find
-  - xargs
----
-
 # Convert documents
 
 ```bash
