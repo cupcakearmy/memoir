@@ -4,6 +4,9 @@ export default {
   project: {
     link: 'https://github.com/cupcakearmy/memoir',
   },
+  sidebar: {
+    defaultMenuCollapseLevel: 1,
+  },
   footer: {
     text: (
       <span>
