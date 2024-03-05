@@ -1,15 +1,15 @@
 {
   "private": true,
   "license": "MIT",
-  "packageManager": "pnpm@8.6.12",
+  "packageManager": "pnpm@8.15.4",
   "scripts": {
     "dev": "NEXT_TELEMETRY_DISABLED=1 next dev",
-    "build": "NEXT_TELEMETRY_DISABLED=1 next build && NEXT_TELEMETRY_DISABLED=1 next export"
+    "build": "NEXT_TELEMETRY_DISABLED=1 next build"
   },
   "dependencies": {
-    "next": "^13.5.4",
-    "nextra": "^2.13.2",
-    "nextra-theme-docs": "^2.13.2",
+    "next": "^14.1.2",
+    "nextra": "^2.13.4",
+    "nextra-theme-docs": "^2.13.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
