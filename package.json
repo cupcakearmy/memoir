@@ -1,16 +1,21 @@
 {
   "private": true,
   "license": "MIT",
-  "packageManager": "pnpm@8.15.4",
+  "type": "module",
   "scripts": {
+    "build": "NEXT_TELEMETRY_DISABLED=1 next build",
     "dev": "NEXT_TELEMETRY_DISABLED=1 next dev",
-    "build": "NEXT_TELEMETRY_DISABLED=1 next build"
+    "start": "pnpm dlx serve out"
   },
   "dependencies": {
-    "next": "^14.1.2",
-    "nextra": "^2.13.4",
-    "nextra-theme-docs": "^2.13.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+    "next": "^14.2.15",
+    "nextra": "^3.0.15",
+    "nextra-theme-docs": "^3.0.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.7.7"
+  },
+  "packageManager": "pnpm@9.12.2"
 }
