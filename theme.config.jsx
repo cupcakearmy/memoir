@@ -10,6 +10,9 @@ export default {
   feedback: {
     content: 'Question? An error? Give feedback →',
   },
+  head: (
+    <script async defer src="https://spectare.nicco.io/unicorn.js" data-website-id="c334f091-7d22-4f84-b06e-b602d4ba889a"></script>
+  ),
   footer: {
     text: (
       <span>
