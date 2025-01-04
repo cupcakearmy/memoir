@@ -8,7 +8,7 @@
     "start": "pnpm dlx serve out"
   },
   "dependencies": {
-    "next": "^14.2.15",
+    "next": "^14.2.21",
     "nextra": "^3.0.15",
     "nextra-theme-docs": "^3.0.15",
     "react": "^18.3.1",
