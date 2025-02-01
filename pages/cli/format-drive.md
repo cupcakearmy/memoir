@@ -1,3 +1,10 @@
+---
+tags:
+  - cli
+  - macos
+  - format
+---
+
 # Format a Drive
 
 ## macOS
