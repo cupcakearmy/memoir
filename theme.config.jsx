@@ -11,7 +11,7 @@ export default {
     content: 'Question? An error? Give feedback →',
   },
   head: (
-    <script async defer src="https://spectare.nicco.io/unicorn.js" data-website-id="c334f091-7d22-4f84-b06e-b602d4ba889a"></script>
+    <script defer src="https://spectare.nicco.io//unicorn.js" data-website-id="4aecaa6f-1e68-4a21-960a-8ff5aaa6599a"></script>
   ),
   footer: {
     text: (
