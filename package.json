@@ -1,21 +1,21 @@
 {
-  "private": true,
-  "license": "MIT",
-  "type": "module",
   "scripts": {
-    "build": "NEXT_TELEMETRY_DISABLED=1 next build",
-    "dev": "NEXT_TELEMETRY_DISABLED=1 next dev",
-    "start": "pnpm dlx serve out"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind"
   },
   "dependencies": {
-    "next": "^14.2.32",
-    "nextra": "^3.3.1",
-    "nextra-theme-docs": "^3.3.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "next": "^15.5.2",
+    "nextra": "^4.4.0",
+    "nextra-theme-docs": "^4.4.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   },
+  "packageManager": "pnpm@10.15.1",
   "devDependencies": {
-    "@types/node": "^22.18.1"
-  },
-  "packageManager": "pnpm@10.15.1"
+    "@types/node": "24.3.1",
+    "@types/react": "19.1.12",
+    "pagefind": "^1.4.0"
+  }
 }
